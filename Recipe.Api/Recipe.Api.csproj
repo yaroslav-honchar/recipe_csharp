@@ -19,7 +19,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Models\" />
+      <ProjectReference Include="..\Recipe.ServicesLibrary\Recipe.ServicesLibrary.csproj" />
     </ItemGroup>
 
 </Project>
