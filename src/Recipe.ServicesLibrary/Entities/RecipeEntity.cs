@@ -2,5 +2,5 @@ namespace Recipe.ServicesLibrary.Entities;
 
 public class RecipeEntity
 {
-    public int Title { get; set; }
+    public string Title { get; set; }
 }
