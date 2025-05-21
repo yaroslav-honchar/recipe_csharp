@@ -4,16 +4,13 @@ using Recipe.ServicesLibrary.Entities;
 
 namespace Recipe.Api.Controllers;
 
-[Route("api/[controller]")]
 [ApiController]
+[Route("recipes")]
 public class RecipeController : ControllerBase
 {
     [HttpGet]
-    public IActionResult AddRecipe([FromQuery]RecipeEntity recipeEntity)
+    public IActionResult Get()
     {
-        var domain = new RecipeDomain();
-        domain.SaveRecipe(recipeEntity);
-
         return Ok();
     }
 }

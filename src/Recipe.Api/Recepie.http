@@ -1,9 +1,5 @@
-@Recipe_HostAddress = http://localhost:8080
-@BASE_URL = http://localhost:8080/api
-
-GET {{Recipe_HostAddress}}/weatherforecast/
-Accept: application/json
+@BASE_URL = http://localhost:8080/api/v1
 
 ###
-GET {{BASE_URL}}/recipe/
+GET {{BASE_URL}}/recipes/
 Accept: application/json

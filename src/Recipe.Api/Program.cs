@@ -10,7 +10,8 @@ builder.Services.Configure<RouteOptions>(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UsePathBase(new PathString("/api/v1"));
+
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
