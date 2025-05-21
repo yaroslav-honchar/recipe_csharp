@@ -6,4 +6,4 @@
       - "8081:8081"
     build:
       context: .
-      dockerfile: Recipe.Api/Dockerfile
+      dockerfile: src/Recipe.Api/Dockerfile

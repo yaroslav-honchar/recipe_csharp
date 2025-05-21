@@ -8,7 +8,7 @@ namespace Recipe.Api.Controllers;
 [ApiController]
 public class RecipeController : ControllerBase
 {
-    [HttpPost]
+    [HttpGet]
     public IActionResult AddRecipe([FromQuery]RecipeEntity recipeEntity)
     {
         var domain = new RecipeDomain();
